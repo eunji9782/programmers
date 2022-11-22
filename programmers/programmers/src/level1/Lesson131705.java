@@ -7,7 +7,7 @@ public class Lesson131705 {
 		int answer = new Solution().solution(arr);
 		System.out.println(answer);
 	}
-	
+	//0.04ms
 	static class Solution {
 	    public int solution(int[] number) {
 	        int answer = 0;
@@ -21,11 +21,7 @@ public class Lesson131705 {
 	        		}
 	        	}
 	        }
-	        
-	        
-	        
-	        
-	        
+
 	        return answer;
 	    }
 	}
