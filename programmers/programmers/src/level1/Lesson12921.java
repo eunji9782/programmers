@@ -12,7 +12,7 @@ public class Lesson12921 {
 
 class PrimeNumber {
     public int solution(int n) {
-		/* ½Ã°£ÃÊ°ú
+		/* ì‹œê°„ì´ˆê³¼
 		 * int answer = 0;
 		 * 
 		 * for(int i = 2; i <= n; i++) { boolean checkPrime = false;
@@ -25,7 +25,7 @@ class PrimeNumber {
 		 * 
 		 * if(!checkPrime) { answer++; } }
 		 */
-    	//¿¡¶óÅä½ºÅ×³×½ºÀÇ Ã¼¸¦ ÀÌ¿ëÇÑ Ç®ÀÌ : n±îÁö µ¹¸®´Â°Ô ¾Æ´Ñ nÀÇ Á¦°ö±Ù¹ø µ¹·Áµµ ÆÇº°ÀÌ °¡´ÉÇÏ´Ù
+    	//ì—ë¼í† ìŠ¤í…Œë„¤ìŠ¤ì˜ ì²´ë¥¼ ì´ìš©í•œ í’€ì´
     	int answer = 0;
     	
     	int[] arr = new int[n + 1];

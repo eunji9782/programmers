@@ -10,7 +10,7 @@ public class Lesson42820 {
 	}
 
 }
-//Ç®±â ½ÇÆĞ.. i%tester1.lengthÀ» »ı°¢ÇØ³»Áö ¸øÇß´Ù... 5.38ms
+//í’€ì´ ì‹¤íŒ¨.. i%tester1.lengthë¼ëŠ” ê³µì‹ì„ ìƒê°í•˜ì§€ ëª»í–ˆë‹¤... 5.38ms
 class Test {
     public int[] solution(int[] answers) {
         int[] answer = {};
@@ -36,7 +36,7 @@ class Test {
         		testerScore3++;
         	}
         }
-        //max ÆÄ¶ó¹ÌÅÍ´Â 2°³ÀÓ...!
+        //maxê°€ ë°›ëŠ” ì¸ìˆ˜ëŠ” ìµœëŒ€ 2ê°œ
         int max = Math.max(Math.max(testerScore2, testerScore3), testerScore1);
         
         if(max == testerScore1) {
