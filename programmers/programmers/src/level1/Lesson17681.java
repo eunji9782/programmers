@@ -46,7 +46,7 @@ public class Lesson17681 {
 }
 
 //인기순 풀이
-class SolutionA {
+class SolutionC {
 	  public String[] solution(int n, int[] arr1, int[] arr2) {
 	        String[] result = new String[n];
 	        for (int i = 0; i < n; i++) {
